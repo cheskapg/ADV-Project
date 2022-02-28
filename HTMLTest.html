@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap css-->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="styles.css">
 
 
@@ -19,10 +22,14 @@
     <!-- NAVIGATION BAR  ---->
     <section>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-
+  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
             <div class="container">
 
                 <a class="navbar-brand" href="#Home">ElectroBitch</a>
+              
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 
@@ -41,23 +48,33 @@
 
                     </ul>
                 </div>
+            </div>
         </nav>
     </section>
     <!-- SHOP CATEGORIES -->
     <section>
 
-        <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-dark">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-light">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ctgmenu">
 
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="div collapse navbar-collapse" id="ctgmenu">
-                   
 
+                <div class="div collapse navbar-collapse" id="ctgmenu">
                     <ul class="list-group list-group-horizontal">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark">Shop All</a>
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown">
+                                Shop All
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
@@ -74,7 +91,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown">
-                                Computer
+                                Components
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -86,7 +103,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown">
-                                Computer
+                                Peripherals
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -98,7 +115,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown">
-                                Computer
+                                Net Devices
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -110,7 +127,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown">
-                                Computer
+                                Accessories
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -122,7 +139,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown">
-                                Computer
+                                Gadgets
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
