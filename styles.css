@@ -43,7 +43,13 @@
 .logo-name {
   width: 120px;
 }
+/* ----showcase---- */
 
+ .overlay-text {
+  position: absolute;
+  top: 75%;
+  left: 23%;
+}
 
 
 /*----------queries---------- */
