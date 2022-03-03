@@ -1,27 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.header{
-
-}
 /* UPPERMOST HEADER */
-.nav-bar{
+.topbar {
 
   background-color: black;
-  
+
 }
-.nav-bar p, .nav-link a, .fs a{
+
+.nav-bar p, .nav-link a, .fs a {
   color: white;
   font-size: 10px;
 }
-.nav-link{
+
+.nav-link {
 
   list-style: none;
-  
+
 }
-.nav-link a, .fs a{
+
+.nav-link a, .fs a {
   text-decoration: none;
   margin: 0px 2px;
   padding: 0px;
@@ -29,28 +29,57 @@
 
 
 /* main header */
-.navbar-nav a{
+.navbar-nav a {
   text-decoration: none;
-  margin:0px 3px;
+
   color: black;
 
+}
+
+.logo {
+  width: 50px;
+}
+
+.logo-name {
+  width: 120px;
 }
 
 
 
 /*----------queries---------- */
 /* medium */
-@media(min-width:768px){
+@media(min-width:768px) {
 
 
-  .search-input{
-    max-width:30%;
+  .shopcategory {
+    background-color: white !important;
+  }
+
+  .search-input {
+    max-width: 30%;
   }
 }
+
 /* large */
-@media (min-width:992px){
+@media (min-width:992px) {
 
-  .search-input{
-    max-width:30%;
+  .search-input {
+    max-width: 30%;
   }
 }
+
+/* 
+<div class="nav-link   collapse navbar-collapse " id="navmenu">
+
+<a href="#">About</a>
+
+
+<a href="#">Contact Us</a>
+
+
+<a href="#">Help Center</a>
+
+
+<a href="#">Call Us 123-456-789</a>
+
+</div> */

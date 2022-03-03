@@ -11,5 +11,7 @@
 			"path": "..\\..\\..\\..\\Code\\HTML"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"livePreview.defaultPreviewPath": "d:\\NachoFknCheez\\Documents\\School Documents\\ADV 102\\Project\\ADV-Project\\index.html"
+	}
 }
