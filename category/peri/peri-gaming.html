@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- fuck bootstrap
+Added showcase
+fix button sizes when resizing
+------------------------
+to add button for each slide
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../../styles.css">
+
+
+    <title>ElectroBitch - Gaming Devices </title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="header">
+
+            <nav class="topbar  d-flex py-md-1 py-2  ">
+                <div class="fs">
+                    <a class="fs mx-3 mx-md-5  ">Free Shipping for orders over $50 </a>
+
+                </div>
+                <div class="ms-auto">
+                    <div class="nav-link  d-none d-md-flex " id="navmenu">
+
+                        <a href="../../about.html">About</a>
+
+
+                        <a href="../../contact.html">Contact Us</a>
+
+
+                        <a href="../../help.html">Help Center</a>
+
+
+                        <a href="">Call Us 123-456-789</a>
+
+                    </div>
+                </div>
+
+            </nav>
+            <!-- main header -->
+            <nav class="navbar navbar-expand-md  bg-light navbar-light">
+
+                <div class="container container-fluid-md">
+
+                    <div class=" col-3 col-lg-3">
+                        <div class="navbar-brand" href="#Home"><a href="../../index.html"><img src="../../res/logo.png"
+                                    class="logo"><img src="../../res/logo-name.png" class="logo-name"> </a>
+                        </div>
+                    </div>
+
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+
+                        <span class="navbar-toggler-icon ms-auto"></span>
+
+                    </button>
+
+                    <div class="col-10 collapse navbar-collapse " id="navmenu">
+                        <div class="input-group search-input my-md-2 my-4">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                                    class="bi bi-search"></i></button>
+                        </div>
+                        <ul class="navbar-nav ms-2 ms-auto pe-lg-5   ">
+                            <div class="container">
+                                <div class="row ">
+                                    <!--MENU SIDEBYSIDE-->
+
+                                    <li class="nav-item my-md-0 my-2 col-6 d-flex justify-content-center ">
+                                        <a href="../../login.html">
+                                            Login
+                                        </a>
+                                    </li>
+                                    <!-- hide -->
+                                    <li class="nav-item d-flex justify-content-center d-md-none my-md-0 my-2 col-6">
+                                        <a href="../../about.html">About</a>
+
+                                    </li>
+
+                                </div>
+
+                            </div>
+                            <div class="container ms-auto">
+
+                                <div class=" row">
+                                    <!--MENU SIDEBYSIDE-->
+                                    <li class="nav-item my-md-0 my-2 col-6 d-flex justify-content-center ">
+                                        <a href="../../favorites.html">
+                                            Favorites
+                                        </a>
+                                    </li>
+                                    <!-- hide -->
+                                    <li class="nav-item d-flex justify-content-center d-md-none my-md-0 my-2 col-6">
+                                        <a href="../../contact.html">Contact Us</a>
+
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="container">
+
+                                <div class="   row">
+                                    <!--MENU SIDEBYSIDE-->
+                                    <li class="nav-item my-md-0 my-2 col-6 d-flex justify-content-center ">
+                                        <a href="../../cart.html">
+                                            Cart
+                                        </a>
+                                    </li>
+                                    <!-- hide -->
+                                    <li class="nav-item d-flex justify-content-center d-md-none my-md-0 my-2 col-6">
+                                        <a href="../../help.html">Help Center</a>
+                                    </li>
+                                </div>
+
+                            </div>
+                        </ul>
+                        <hr>
+                        <!--end of navbar-nav-->
+                    </div><!-- end of col div collapse-->
+                </div>
+                <!--end of container-fluid -->
+            </nav><!-- end of navbar MAIN-->
+        </div>
+    </div><!-- end of PAGE WRAPPER-->
+
+
+    <!--CATEGORIESSSSS-->
+    <section class="container-fluid">
+        <nav class="shopcategory navbar-expand-md bg-light  ">
+
+            <div class=" navbar justify-content-center collapse  navbar-collapse " id="navmenu">
+
+                <ul class=" navbar-nav  row-horizontal ">
+
+                    <div class="container row me-2-md d-flex justify-content-center">
+                        <li class="nav-item dropdown   d-flex justify-content-center  col-6 ">
+                            <a class="nav-link dropdown-toggle text-dark px-5" href="#" id="navbarDropdown"
+                                role="button">
+                                Computer
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../comp/cat-AllComputer.html">All Computers</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="../comp/comp-desktop.html">Desktop</a>
+
+                                <a class="dropdown-item" href="../comp/comp-notebook.html">Notebooks</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown   d-flex justify-content-center  col-6">
+                            <a class="nav-link dropdown-toggle text-dark px-5" href="#" id="navbarDropdown"
+                                role="button" ">
+                                Components
+                            </a>
+                            <div class=" dropdown-menu">
+                                <a class="dropdown-item" href="../compo/cat-AllComponents.html">All Components</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="../compo/compo-chasis.html">Chasis</a>
+                                <a class="dropdown-item" href="../compo/compo-processor.html">Processor</a>
+                                <a class="dropdown-item" href="../compo/compo-motherboard.html">Motherboard</a>
+                                <a class="dropdown-item" href="../compo/compo-graphics.html">Graphics Card</a>
+                                <a class="dropdown-item" href="../compo/compo-memory.html">Memory</a>
+                                <a class="dropdown-item" href="../compo/compo-hard.html">Hard Drive</a>
+                                
+                    </div>
+                    </li>
+            </div>
+            <div class="container row me-2-md d-flex justify-content-center ">
+                <li class="nav-item dropdown   d-flex justify-content-center  col-6">
+                    <a class="nav-link dropdown-toggle text-dark  px-5" href="#" id="navbarDropdown" role="button">
+                        Peripherals
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="cat-AllPeripherals.html">All Peripherals</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="peri-display.html">Display</a>
+                        <a class="dropdown-item" href="peri-audio.html">Audio</a>
+                        <a class="dropdown-item" href="peri-gaming.html">Gaming</a>
+                        <a class="dropdown-item" href="peri-keyboard.html">Keyboard | Mouse</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown   d-flex justify-content-center   col-6 ">
+                    <a class="nav-link dropdown-toggle text-dark px-5" href="#" id="navbarDropdown" role="button">
+                        Net Devices
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../net/cat-AllNetDevices.html">All Net Devices</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../net/net-adaptor.html">Adaptor</a>
+                        <a class="dropdown-item" href="../net/net-router.html">Router</a>
+                        <a class="dropdown-item" href="../net/net-switch.html">Switch</a>
+
+                    </div>
+                </li>
+            </div>
+            <div class="container row me-2-md d-flex justify-content-center ">
+                <li class="nav-item dropdown   d-flex justify-content-center   col-6 ">
+                    <a class="nav-link dropdown-toggle text-dark px-5" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown">
+                        Accessories
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../acc/cat-AllAccessories.html">All Accessories</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../acc/acc-cable.html">Cable</a>
+                        <a class="dropdown-item" href="../acc/acc-bag.html">Bag</a>
+                        <a class="dropdown-item" href="../acc/acc-storage.html">Storage Devices</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown   d-flex justify-content-center col-6">
+                    <a class="nav-link dropdown-toggle text-dark px-5 " href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown">
+                        Gadgets
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../gad/cat-AllGadgets.html">All Gadgets</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../gad/gad-camera.html">Digital Camera</a>
+                        <a class="dropdown-item" href="../gad/gad-media.html">Portable Media </a>
+                        <a class="dropdown-item" href="../gad/gad-stream.html">Streaming Devices</a>
+                    </div>
+                </li>
+            </div>
+            </ul>
+            </div>
+            <!--end of container collapse-->
+        </nav>
+        <!--end of container-->
+    </section>
+</div>
+
+
+    <section>
+ 
+    </section>
+ 
+
+
+</body>
+
+</html>

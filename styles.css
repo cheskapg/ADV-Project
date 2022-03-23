@@ -55,19 +55,35 @@
 .card {
   transition: all 0.4s ease;
   cursor: pointer
-}
 
+}
 .card:hover {
   box-shadow: 1px 2px 2px 2px #383f46;
-  transform: scale(1.1)
+  transform: scale(1.1);
+
+}
+.card:hover .cardbutts {
+  display: inline-block;
+
+}
+.cardbutts {
+  display: none;
+
 }
 
+
+
+.dropdown-item:active {
+  background-color: grey!important;
+ } 
 
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0px;
    /* // remove the gap so it doesn't close */
 }
+
+
 
 /*----------queries---------- */
 /* medium */
