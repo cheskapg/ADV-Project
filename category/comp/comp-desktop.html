@@ -1,3 +1,29 @@
+<?php
+  include 'connect.php';
+  if(isset($_POST['add-vega'])){
+    $UserId = $_POST['userID'];
+    $ProductName= $_POST['productName'];
+    $ProductQty = $_POST['productQty'];
+    $ProductPrice = $_POST['productPrice'];
+    $ProductAmount = $_POST['productAmount'];
+
+    $statement = $conn->prepare("CALL insertCart(?,?,?,?,?)");
+    $statement->bind_param("ssidd", $UserId, $ProductName, $ProductQty, $ProductPrice, $ProductAmount);
+     if(($statement->execute()) == 1)
+{
+
+    echo 'Added to User Cart ';
+}
+    else{
+    echo 'ERROR';
+}
+
+    
+
+  }
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -276,12 +302,12 @@ to add button for each slide
             <div class="row bg-dark">
                 <div class="col-12 ">
                     <div class="nav-item dropdown productsort ">
-                        <a class="nav-link dropdown-toggle px-5  text-light " href="#" id="navbarDropdown" role="button"
-                            >
+                        <a class="nav-link dropdown-toggle px-5  text-light " href="#" id="navbarDropdown"
+                            role="button">
                             Sort
                         </a>
                         <div class="dropdown-menu producsort-menu">
-                        
+
                             <div class="dropdown-item">Name</div>
                             <div class="dropdown-item">Price (Lowest - Highest) </div>
                             <div class="dropdown-item">Price (Highest - Lowest</div>
@@ -341,8 +367,18 @@ to add button for each slide
                             </div>
                             <div class="row mt-3">
                                 <div class="col-12">
-                                    <a href="#" class="btn btn-sm btn-primary cardbutts">View</a>
-                                    <a href="#" class="btn btn-sm  btn-primary cardbutts">Add to cart</a>
+                                    <a href="" class="btn btn-sm btn-primary cardbutts">View</a>
+                                    <a>
+  
+                                        <form method="POST" class="cardbutts">
+                                            <input type="hidden" class="form-control" name="userID" value="wtf">
+                                            <input type="text" class="form-control" name="productName">
+                                            <input type="text" class="form-control" name="productQty">
+                                            <input type="text" class="form-control" name="productPrice">
+                                            <input type="text" class="form-control" name="productAmount">
+                                            <button name="add-vega" type="submit" class="btn btn-sm  btn-primary  d-inline">Add to cart</button>
+                                        
+                                        </form>
                                 </div>
                             </div>
                         </div>
@@ -414,6 +450,7 @@ to add button for each slide
 
         </div>
     </section>
+
 
 </body>
 

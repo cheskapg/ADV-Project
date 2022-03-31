@@ -1,0 +1,73 @@
+<?php
+  include 'connect.php';
+  if(isset($_POST['submit'])){
+    $UserId = $_POST['userID'];
+    $ProductName= $_POST['productName'];
+    $ProductQty = $_POST['productQty'];
+    $ProductPrice = $_POST['productPrice'];
+    $ProductAmount = $_POST['productAmount'];
+
+    $statement = $conn->prepare("CALL insertCart(?,?,?,?,?)");
+    $statement->bind_param("ssidd", $UserId, $ProductName, $ProductQty, $ProductPrice, $ProductAmount);
+     if(($statement->execute()) == 1)
+{
+
+    echo 'Added to User Cart ';
+}
+    else{
+    echo 'ERROR';
+}
+
+    
+
+  }
+
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- fuck bootstrap
+Added showcase
+fix button sizes when resizing
+------------------------
+to add button for each slide
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+<form method="POST">   
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="userID">
+
+  
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="productName">
+ 
+    
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="productQty">
+  
+ 
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="productPrice">
+
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="productAmount">
+
+  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+</form>
+
+</div>
+</body>
+
+</html>
