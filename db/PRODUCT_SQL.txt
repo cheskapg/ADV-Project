@@ -1,0 +1,67 @@
+INSERT INTO products (id,category_id,name,description,price,stock,photo) 
+VALUES 
+(3,
+ 1,
+ 'SAMSUNG T5 Portable SSD 1TB - Up to 540 MB/s - USB 3.1 External Solid State Drive MU-PA1T0B/AM' , 
+ '(Must be bought with compatible motherboard) # of CPU Cores: 8 Multithreading (SMT): Yes # of Threads:16 Max. Boost Clock: Up to 4.6GHz Base Clock: 3.4GHz L1 Cache: 512KB L2 Cache: 4MB L3 Cache: 32MB Default TDP: 65W Processor Technology for CPU Cores: TSMC 7nm FinFET Processor Technology for I/O Die: 12nm (Globalfoundries) CPU Compute Die (CCD) Size: 74mm² I/O Die (IOD) Size: 125mm² Package Die Count: 2 Unlocked for Overclocking: Yes CPU Socket: AM4 Socket Count: 1P ' ,
+ 17500,
+ 50 , 
+ 'ssd-removebg-preview.png'); 
+=============================================================================================================================
+START HERE - CHECK CHANGE CATEGORY AND ID, ID OF EACH PRODUCT ACCORDING KG ASA SILA NA LIST
+=============================================================================================================================
+INSERT INTO products (id,category_id,name,description,price,stock,photo) 
+VALUES 
+(3,
+ 1,
+ 'ASRock Phantom Gaming B550 PG VELOCITA AM4 AMD B550 SATA 6Gb/s ATX AMD Motherboard' , 
+ 'BIOS update might require for AMD Zen 3 Ryzen 5000 series CPU AMD B550
+Supports 3rd Gen AMD AM4 Ryzen / future AMD Ryzen Processors
+AMD Ryzen series CPUs (Matisse) support DDR4 4733+(OC)/ 4666(OC)/ 4600(OC)/ 4533(OC)/ 4466(OC)/ 4400(OC)/ 4333(OC)/ 4266(OC)/ 4200(OC)/ 4133(OC)/ 4000(OC)/ 3866(OC)/ 3800(OC)/ 3733(OC)/ 3600(OC)/ 3466(OC)/ 3200/ 2933/ 2667/ 2400/ 2133 ECC & non-ECC, un-buffered memory
+AMD Ryzen series APUs (Renoir) support DDR4 4733+(OC)/ 4666(OC)/ 4600(OC)/ 4533(OC)/ 4466(OC)/ 4400(OC)/ 4333(OC)/ 4266(OC)/ 4200(OC)/ 4133(OC)/ 4000(OC)/ 3866(OC)/ 3800(OC)/ 3733(OC)/ 3600(OC)/ 3466(OC)/ 3200/ 2933/ 2667/ 2400/ 2133 ECC & non-ECC, un-buffered memory' ,
+ 11300,
+ 50 , 
+ 'ASRock_Phantom_Gaming_B550_PG_VELOCITA_AM4_AMD_B550_SATA_6G_ATX_AMD_Motherboard-removebg-preview.png'); 
+--------------------------------
+INSERT INTO products (id,category_id,name,description,price,stock,photo) 
+VALUES 
+(3,
+ 1,
+ 'ASRock Radeon RX 6900 XT PHANTOM GAMING D Graphics Card 16GB GDDR6, AMD RDNA2 (RX6900XT PGD 16GO)' , 
+ '16GB 256-Bit GDDR6
+Core Clock 1925 MHz
+Boost Clock 2340 MHz
+1 x HDMI 2.1 VRR 3 x DisplayPort 1.4 with DSC
+5120 Stream Processors
+PCI Express 4.0' ,
+ 60861,
+ 50 , 
+ 'ASRock_Radeon_RX_6800_Phantom_Gaming_D_Gaming_Graphics_Card_with_16GB_GDDR6__AMD_RDNA_2__RX6800_PGD_16GO_-removebg-preview.png'); 
+-------------------------------
+INSERT INTO products (id,category_id,name,description,price,stock,photo) 
+VALUES 
+(3,
+ 1,
+ 'Enermax D.F. VEGAS DUO Duo LED Light 120mm Fan Dust Free Rotation Technology High Technology PWM Speed Control, Black, UCDFVD12P' , 
+ 'Patented DFR technology instantly blows away the dust to prolong the lifespan
+Patented Circular-type LED with 12 diodes and 5 VEGAS LED modes
+Focus Blades with light reflex strips to create exceptional, curved rays of light
+Noise Level: 16-22 dBA; Speed: 1500 RPM; Air Flow: 61.92 CFM
+PWM speed control keeps your system cool and silent at all time and Patented Twister Bearing technology for long lifetime and low noise' ,
+ 900
+ 50 , 
+ 'Enermax_D.F._VEGAS_DUO_Duo_LED_Light_120mm_Fan_Dust_Free_Rotation_Technology_High_Technology_PWM_Speed_Control__Black__UCDFVD12P-removebg-preview.png'); 
+------------------------------
+INSERT INTO products (id,category_id,name,description,price,stock,photo) 
+VALUES 
+(3,
+ 1,
+ 'Microsoft Xbox Series S Fortnite & Rocket League Midnight Drive Pack Bundle with Tomb Raider Definitive Edition Full Game and Mytrix Controller Protective Case' , 
+ 'Get the the Xbox Series S - Fortnite & Rocket League Bundle with Games and Exclusive in Game COntents!
+With the Midnight Drive Pack for Fortnite, you can customize your avatar with the Dark Skully outfit, Dark Skully Satchel Back Bling, Dark Splitter pickaxe, and 1,000 V-Bucks to spend on favorite items
+For Rocket League add-on content, you get the standout Purple Masamune Car, Purple Virtual Wave Boost, Purple Zefram Wheels, and 1,000 Rocket League Credits
+Also bundled with Tomb Raider Definitive Edition Full Game and Mytrix Controller Protective Case
+Xbox Series S: Play at 1440P 120FPS with the supported contents; Explore rich new worlds and enjoy the action like never before with the 4 teraflops of raw graphic processing power' ,
+ 20737
+ 50 , 
+ 'Xbox_Series_S_-_Fortnite_Rocket_League_Bundle_and_Xbox_Wireless_Controller_-_20th_Anniversary_Special_Edition_for_Xbox_Seri-removebg-preview.png'); 
