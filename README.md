@@ -11,6 +11,14 @@
 | Users | User View Details |
 | <img src="https://github.com/cheskapg/ADV-Project/assets/78902475/ac006a30-428a-470f-8ebd-bd058c2a093c" width=500> | <img src="https://github.com/cheskapg/ADV-Project/assets/78902475/b5f3501a-8aa6-471e-9f81-537194e44efa" width=500 height=50%>|
 
+
+https://github.com/cheskapg/ADV-Project/assets/90952873/ce303f23-eb72-4307-a302-56a0b06cc305
+
+
+
+https://github.com/cheskapg/ADV-Project/assets/90952873/6aa5d009-ff94-4df7-9bc8-46dcc4be7567
+
+
 ## Technology Used 🔧⚒
 * HTML & CSS
 * Bootstrap
